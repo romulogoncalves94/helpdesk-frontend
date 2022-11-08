@@ -1,6 +1,6 @@
 <div class="container">
   <h1><b>Técnicos</b></h1>
-  <button mat-raised-button color="primary">Novo Tecnico</button>
+  <button routerLink="create" mat-raised-button color="primary">Novo Tecnico</button>
     <mat-form-field appearance="standard">
       <mat-label>Filter</mat-label>
       <input matInput (keyup)="applyFilter($event)" placeholder="Ex. ium" #input>
