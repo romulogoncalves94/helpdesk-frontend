@@ -15,3 +15,11 @@ h1 {
     width: 100%;
     text-align: left;
 }
+
+.edit {
+    color: rgba(24, 66, 204, 0.904);
+}
+
+.delete {
+    color: rgb(145, 2, 2);
+}
