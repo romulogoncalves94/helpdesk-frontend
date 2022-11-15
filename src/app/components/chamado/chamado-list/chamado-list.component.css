@@ -1,0 +1,32 @@
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+}
+
+mat-form-field {
+    width: 100%;
+}
+
+h1 {
+    width: 100%;
+    text-align: left;
+}
+
+.edit {
+    color: rgba(24, 66, 204, 0.904);
+}
+
+.delete {
+    color: rgb(145, 2, 2);
+}
+
+mat-radio-group {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
