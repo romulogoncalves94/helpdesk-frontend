@@ -1,7 +1,7 @@
 
 <div class="container">
     <h1><b>Chamados</b></h1>
-    <button mat-raised-button color="primary">Novo Chamado</button>
+    <button mat-raised-button color="primary" routerLink="create">Novo Chamado</button>
       <mat-form-field appearance="standard">
         <mat-label>Filter</mat-label>
         <input matInput (keyup)="applyFilter($event)" placeholder="Ex. ium" #input>

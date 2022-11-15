@@ -15,7 +15,7 @@ export class NavComponent implements OnInit {
   constructor(private router: Router, private AuthService: AuthService, private toast: ToastrService) { }
 
   ngOnInit(): void {
-    this.router.navigate(['chamados'])
+    this.router.navigate(['chamados/create'])
   }
 
   logout() {
